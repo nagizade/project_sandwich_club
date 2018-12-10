@@ -28,6 +28,8 @@ public class JsonUtils {
                 ingredientsArray.add(ingredients.get(i).toString());
             }
 
+
+
             sandwich.setMainName(nameObject.getString("mainName"));
             sandwich.setImage(jsonObject.getString("image"));
             sandwich.setAlsoKnownAs(alternativeNames);
