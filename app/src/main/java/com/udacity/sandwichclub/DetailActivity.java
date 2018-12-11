@@ -74,7 +74,7 @@ public class DetailActivity extends AppCompatActivity {
 
         ArrayList<String> ingredientsArray = sandwich.getIngredients();
         for(int i=0;i<ingredientsArray.size();i++) {
-            ingredientsString =  ingredientsString + ingredientsArray.get(i);
+            ingredientsString =  ingredientsString + ingredientsArray.get(i) + ",";
         }
 
         ArrayList<String> alsoKnownArray = sandwich.getAlsoKnownAs();
